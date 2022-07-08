@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+body {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-form {
+    background-color: #252523;
+    width: 600px;
+    height: 600px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: #ccccc8;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+}
+
+
+#text {
+    width: 200px;
+    height: 30px;
+    border: none;
+}
+
+.btn-add {
+    height: 37px;
+    background-color: red;
+    border: none;
+    width: 30px;
+    color: #ccccc8;
+}
+
+ul {
+    padding: 0px;
+}
+
+.btn-delete {
+    margin-left: auto;
+    border: none;
+    background-color: #780d0d;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    outline: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 10%;
+    font-size: 1.2em;
+  }
+  
+  .btn-delete:hover {
+    cursor: pointer;
+    background-color: lightseagreen;
+  }
+
+li {
+    list-style: none;
+    color: #ccccc8;
+    display: flex;
+}
+
+li p {
+    width: 100%;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.empty p {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
